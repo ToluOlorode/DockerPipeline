@@ -1,6 +1,6 @@
-# Jenkins Pipeline Tutorial with JDK, Maven, SonarQube, and Docker Integration
+# Jenkins Pipeline Script with JDK, Maven, SonarQube, and Docker Integration
 
-This tutorial walks you through setting up a Jenkins pipeline using a `Jenkinsfile` to automate the build, test, and deployment process for a Java application. The pipeline includes integration with the Java Development Kit (JDK), Maven for build and dependency management, SonarQube for code analysis, and Docker for containerization.
+This readme walks you through setting up a Jenkins pipeline using a `Jenkinsfile` to automate the build, test, and deployment process for a Java application. The pipeline includes integration with the Java Development Kit (JDK), Maven for build and dependency management, SonarQube for code analysis, and Docker for containerization.
 
 ## Prerequisites
 
