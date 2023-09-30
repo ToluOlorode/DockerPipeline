@@ -51,16 +51,16 @@ stages {
             script{
             withDockerRegistry(credentialsId: 'dockerhub', toolName: 'docker') }
 {
-            sh "docker build -t Springboot ."
-            sh "docker tag Springboot danityprojects/Springboot"
-            sh "docker push danityprojects/Springboot"
+            sh "docker build -t springboot ."
+            sh "docker tag springboot danityprojects/springboot"
+            sh "docker push danityprojects/springboot"
         
     }
    }
   }
     stage('Deploy to Docker') {
         steps {
-            sh "docker run -d -p 8085:8085 danityprojects/Springboot"}
+            sh "docker run -d -p 8085:8085 danityprojects/springboot"}
     }
  }
 }
